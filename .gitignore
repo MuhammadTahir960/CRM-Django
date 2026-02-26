@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Django
+*.log
+db.sqlite3
+db.sqlite3-journal
+
+# Local development settings
+local_settings.py
+
+# Environment variables
+.env
+.env.*
+*.env
+!.env.example
+
+# Virtual environment
+venv/
+env/
+ENV/
+.venv/
+
+# Static & Media (collected files)
+staticfiles/
+media/
+
+# MySQL
+*.sql
+*.dump
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# OS
+Thumbs.db
