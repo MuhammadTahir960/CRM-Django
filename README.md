@@ -146,10 +146,10 @@ CREATE DATABASE your_db_name;
 Copy the example file and fill in your own values:
 
 ```bash
-cp CRM/.env.example CRM/.env
+cp .env.example .env
 ```
 
-Open `CRM/.env` and update it:
+Open `.env` and update it:
 
 ```env
 SECRET_KEY=your_secret_key_here
@@ -170,7 +170,6 @@ DB_PORT=3306
 ### 6. Apply Database Migrations
 
 ```bash
-cd CRM
 python manage.py migrate
 ```
 
