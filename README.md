@@ -111,8 +111,8 @@ Make sure you have the following installed:
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/MuhammadTahir960/Django-CRM.git
-cd Django-CRM
+git clone https://github.com/MuhammadTahir960/CRM-Django.git
+cd CRM-Django
 ```
 
 ### 2. Create & Activate a Virtual Environment
